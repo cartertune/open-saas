@@ -47,7 +47,7 @@ const DropdownDefault = () => {
         </svg>
       </button>
       <div
-        ref={dropdown}
+        // ref={dropdown}
         onFocus={() => setDropdownOpen(true)}
         onBlur={() => setDropdownOpen(false)}
         className={cn(
